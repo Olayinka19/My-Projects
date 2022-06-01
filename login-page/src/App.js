@@ -2,12 +2,15 @@
 import './App.css';
 import Form from './Components/Form';
 
+
+
+var UserIsRegistered = false;
 function App() {
   return (
     <div className="App">
       <h1>Hello</h1>
-
-      <Form />
+  
+      <Form isRegistered={UserIsRegistered} />
       
     </div>
   );
