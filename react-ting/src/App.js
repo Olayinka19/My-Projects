@@ -12,6 +12,10 @@ import ShopList from "./Components/ShopList";
 import ChainExample from "./Components/Anime";
 import LoopTrue from "./Components/LoopTrue";
 import LoopObject from "./Components/Footer";
+import Button from "./Components/Button";
+
+import { Transition } from "react-spring";
+
 
 
 
@@ -22,12 +26,15 @@ import "./App.css";
 function App() {
   
   return (
+
     <div className="App">
       <Router>
         <Nav />
         <ChainExample />
         <LoopTrue />
         <LoopObject />
+        <Transition />
+        <Button />
         
         
        
