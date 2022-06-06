@@ -13,7 +13,9 @@ import ChainExample from "./Components/Anime";
 import LoopTrue from "./Components/LoopTrue";
 import LoopObject from "./Components/Footer";
 import Button from "./Components/Button";
-
+import Count from "./Components/Count";
+import Time from "./Components/Time";
+import Birds from "./Components/Birds";
 import { Transition } from "react-spring";
 
 
@@ -35,7 +37,10 @@ function App() {
         <LoopObject />
         <Transition />
         <Button />
-        
+        < Count />
+        < Time />
+        <Birds />
+        <birdData />
         
        
 

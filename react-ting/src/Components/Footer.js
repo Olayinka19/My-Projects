@@ -4,7 +4,7 @@ import { useSpring, animated } from 'react-spring'
 
 function LoopObject() {
     const styles = useSpring({
-      loop: { reverse: true },
+      loop: { reverse: false },
       from: { x: 8 },
       to: { x: 1000 },
     })

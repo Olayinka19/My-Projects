@@ -3,7 +3,7 @@ import { useSpring, animated } from 'react-spring'
 
 function LoopTrue() {
     const styles = useSpring({
-      loop: true,
+      loop: false,
       from: { rotateZ: 100 },
       to: { rotateZ: 280 },
     })
