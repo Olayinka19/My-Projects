@@ -4,11 +4,13 @@ import Form from './Components/Form';
 
 
 
+
+
 var UserIsRegistered = false;
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <h1>{}</h1>
   
       <Form isRegistered={UserIsRegistered} />
       

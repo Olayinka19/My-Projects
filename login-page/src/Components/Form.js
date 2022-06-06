@@ -4,7 +4,7 @@ import Password from './Password'
 import Username from './Username'
 
 
-export default function Form(props) {
+export default function Form() {
   return (
     <div>
       <Username />
