@@ -11,11 +11,11 @@ const fix = {
 };
 
 export default function Login(props) {
-  const [click, setClick] = useState("Hello");
+  const [click, setClick] = useState("");
   const [isMouse, setIsMouse] = useState(false);
   const [mouseOut, setMouseout] = useState(false);
-  const handleClick = () => {
-    setClick("Welcome");
+  const handleClick = (e) => {
+    setClick(e.target.value);
   };
   function mover(e) {
     setIsMouse(true);
