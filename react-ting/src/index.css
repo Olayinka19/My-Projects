@@ -5,7 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- 
+  color:white;
+  background-color: #0f3094;
+  background-image: url("https://www.transparenttextures.com/patterns/green-gobbler.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 code {
