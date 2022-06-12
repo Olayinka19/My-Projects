@@ -35,7 +35,7 @@ export default function Login(props) {
       >
         Click Me
       </button>
-      <h1>{click}</h1>
+      
     </div>
   );
 }

@@ -8,7 +8,7 @@ const fix = {
 export default function Password(props) {
   return (
     <div>
-      <input style={fix} type="password" placeholder="Password" />
+      
      
     </div>
   );

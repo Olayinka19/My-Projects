@@ -11,22 +11,25 @@ export default function Username() {
   const [cliq, setCliq] = useState("");
   function handleChange (e) {
      setchange(e.target.value)
-      // console.log(e.target.placeholder)
-      // console.log(e.target.type)
+     e.preventDefault()
+     e.reser()
   }
   function hanleCliq (e) {
-      // const [value] = e.target
-      setCliq(change)
+     
 
     }
  
   return (
    
     <div>
-      
-      <input onChange={handleChange}type = "text" placeholder='Username' style={fix}></input>
-      <button onClick={hanleCliq}>Submit</button>
-   <h1>Hello:{cliq}</h1>
+       <h1>Hello:{change}</h1>
+       <h1>Hello:{change}</h1>
+
+      <input onChange={handleChange}type = "text" placeholder='Username' style={fix}></input> <br></br>
+      <br></br>
+      <input onChange={handleChange} style={fix} type="password" placeholder="Password" />
+
+  
     </div>
   )
 }
