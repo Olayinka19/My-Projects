@@ -6,6 +6,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-color: aqua; */
+  color:white;
+  background-color: #00238c;
+  background-color: #00238c;
+  background-image: url("https://www.transparenttextures.com/patterns/football-no-lines.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 code {
@@ -49,21 +56,40 @@ h1:active {
   -moz-osx-font-smoothing: grayscale;
   transition-duration: 1.0s;
   transition-property: transform;
-  background-color: aqua;
+  background-color: rgb(64, 75, 140);
 
 }
+.image{
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(203, 10, 10, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 1.0s;
+  transition-property: transform;
+}
+.image:hover,
+.image:focus,
+.image:active {
+  transform: scale(.1);
+  -webkit-transform: scale(.1);
+  -moz-transform: scale(.1);
+  -ms-transform: scale(.1);
+  -o-transform: scale(.1);
+} 
 .name:hover,
 .name:focus,
 .name:active {
-  transform: scale(2.1);
-  -webkit-transform: scale(2.1);
-  -moz-transform: scale(2.1);
-  -ms-transform: scale(2.1);
-  -o-transform: scale(2.1);
+  transform: scale(0.2);
+  -webkit-transform: scale(0.2);
+  -moz-transform: scale(0.2);
+  -ms-transform: scale(0.2);
+  -o-transform: scale(0.2);
 } 
 .cont{
   display: grid;
-  border: 3px solid greenyellow;
+  border: 3px solid rgb(53, 51, 181);
  
 
 }

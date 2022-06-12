@@ -12,7 +12,7 @@ export default function Content(props) {
       <h1>
         <p className='name'>{props.name}</p>
         <br></br>
-        <img src={props.img} alt = "image" ></img>
+        <img className='image' src={props.img} alt = "image" ></img>
         <p>{props.meaning}</p>
       </h1>
     </div>

@@ -3,43 +3,43 @@
 const Emojis = [
     {
         id: "1",
-        name: "Grinning Face",
-        imgURL: "https://www.emojimeanings.net/img/emojis/grinning-face-with-smiling-eyes_1f601.png",
-        meaning: "The happy smiling face is one of the most common emojis and universally applicable: you just want to say hello, express joy or excitement about something or brighten up a short text."
+        name: "Ghostavo",
+        imgURL: "https://media.istockphoto.com/photos/screaming-ghost-faces-picture-id1051146310?k=20&m=1051146310&s=612x612&w=0&h=D7hpkzfgUSTDugR9bkmy9dDcLy4-ImfgAnoFRK5_6HE=",
+       
         
         
     },
 
     {
         id: "2",
-        name: "Tears of Joy",
-        imgURL: "https://www.emojimeanings.net/img/emojis/face-with-tears-of-joy_1f602.png",
-        meaning: "I am laughing to hard that I can hardly keep myself on my chair! Something is so incredibly funny that you cry laughing. Gets the giggles and can hardly contain himself. This emoji is the most popular and was named Word of the Year "
+        name: "Come here....",
+        imgURL: "https://cdn.pixabay.com/photo/2021/07/05/17/25/scary-6389656_960_720.jpg",
+        // meaning: "I am laughing to hard that I can hardly keep myself on my chair! Something is so incredibly funny that you cry laughing. Gets the giggles and can hardly contain himself. This emoji is the most popular and was named Word of the Year "
     },
 
     {
         id: "3",
-        name: "Red Heart",
-        imgURL: "https://www.emojimeanings.net/img/emojis/heavy-black-heart_2764.png",
-        meaning: "The red heart is the classical symbol of love. Expression of passion and romance. But also in the non-romantic context for friendship and strong bonds."
+        name: "Smiley",
+        imgURL: "https://i.pinimg.com/236x/56/ce/56/56ce56dbeab1553b84f3df3acf6327b4--creepy-clown-creepy-art.jpg",
+      
     },
     {
         id: "4",
-        name: "Taxi",
-        imgURL: "https://www.emojimeanings.net/img/emojis/taxi_1f695.png",
-        meaning: "Watch"
+        name: "Ghostie",
+        imgURL: "https://media.istockphoto.com/photos/zombie-ghost-isolated-picture-id688372214?k=20&m=688372214&s=612x612&w=0&h=9qg-A73OJjxK3_kzODT6SCVho2Orlk404SshNPrG2kY=",
+       
     },
     {
         id: "5",
-        name: "Mobile Phone",
-        imgURL: "https://www.emojimeanings.net/img/emojis/anchor_2693.png",
-        meaning: "Pick Up a Phone"
+        name: "",
+        imgURL: "https://media.istockphoto.com/photos/disfigured-picture-id162957036?k=20&m=162957036&s=612x612&w=0&h=LE9xDuUEbEZxvg-VVK-hSKqxBUb3z26m8WuY8jtGSNA=",
+       
     },
     {
         id: "6",
-        name: "Desktop Computer",
-        imgURL: "https://www.emojimeanings.net/img/emojis/night-with-stars_1f303.png",
-        meaning:"Take a look at the screen! In general, stands for working on the computer or computer games. Can also mean “I bought a new computer“."
+        name: "Crippy",
+        imgURL: "https://media.istockphoto.com/photos/terrible-dead-ghost-woman-in-the-water-picture-id545359498?k=20&m=545359498&s=612x612&w=0&h=zG7aMV6f6G1mAw4mJG1g7-jamvBAjtzToOlddGdPKLA=",
+      
     },
 
 ]

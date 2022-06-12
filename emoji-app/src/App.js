@@ -35,7 +35,8 @@ meaning ={emojiTe.meaning}
 function App(props) {
   return (
     <div className="App">
-      <h1>EmojiPedia By Ola</h1>
+      <h1>Scary-Hover <br></br>by Ola</h1>
+      <h2>Drag your mouse over each header and emoji.</h2>
       
       {Emojis.map(GetCon)}
      
